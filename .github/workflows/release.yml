@@ -47,3 +47,9 @@ jobs:
         public-repo: ghcr.io/dereknola
         public-username: dereknola
         public-password: ${{ github.token }}
+
+        push-to-prime: false
+        prime-repo: rancher
+        prime-registry: ${{ env.PRIME_REGISTRY }}
+        prime-username: ${{ env.PRIME_REGISTRY_USERNAME }}
+        prime-password: ${{ env.PRIME_REGISTRY_PASSWORD }}
